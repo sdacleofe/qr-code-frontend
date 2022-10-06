@@ -4,14 +4,9 @@
 }
 
 body {
-<<<<<<< HEAD
     background: linear-gradient(180deg, #C9D6FF, #E2E2E2);
     height: 100vh;
-=======
->>>>>>> 40fc72fc18ba9076369f1553cc31f02d09e1e964
     font-family: 'Outfit', sans-serif;
-    background: linear-gradient(180deg, #43C6AC, #191654);
-    height: 100vh;
 }
 
 article {
