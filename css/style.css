@@ -3,11 +3,11 @@
     margin: 0;
     padding: 0;
 }
-body {
-    background: linear-gradient(180deg, #43C6AC, #191654);
 
-    height: 100vh;
+body {
     font-family: 'Outfit', sans-serif;
+    background: linear-gradient(180deg, #43C6AC, #191654);
+    height: 100vh;
 }
 
 article {
