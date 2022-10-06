@@ -1,86 +1,122 @@
-# Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+#  Frontend Mentor - QR code component solution
 
-## Table of contents
+  
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Overview
+  
 
-### Screenshot
+##  Table of contents
 
+
+-  [Overview](#overview)
+	- [Screenshot](#screenshot)
+	- [Links](#links)
+-  [My process](#my-process)
+	- [Built with](#built-with)
+	- [What I learned](#what-i-learned)
+	- [Continued development](#continued-development)
+	- [Useful resources](#useful-resources)
+-  [Author](#author)
+-  [Acknowledgments](#acknowledgments)
+
+
+##  Overview
+###  Screenshot
 ![](./screenshot.png)
 
-### Links
+  
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+###  Links
+- Solution URL: [Solution](https://github.com/sdacleofe/qr-code-frontend)
+- Live Site URL: [QR Code Layout](https://sdacleofe.github.io/qr-code-frontend/)
 
-## My process
+  
 
-### Built with
+##  My process
+
+  
+
+###  Built with
+
+  
 
 - Semantic HTML5 markup
+
 - CSS custom properties
+
 - Flexbox
 
-### What I learned
+  
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+###  What I learned
 
-To see how you can add code snippets, see below:
+While working through this project, I have used HTML5 semantics such as `<article>` and `<section>` tags instead of `<div>` tag to make my code easier to read and stay current with coding. Plus, I spent my day to study CSS flexbox, and was able to use it in this project.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
+Code using HTML5 semantics
+``` html
+<article>
+	<section  class="card">
+		<img  src="./images/image-qr-code.png"  alt="qr code">
+		<h3>Improve your front-end skills by building projects</h3>
+		<p>Scan the QR code to visit the Frontend Mentor and take your coding skills to the next level.</p>
+	</section>
+	<section  class="attribution">
+		Challenge by <a  href="https://www.frontendmentor.io?ref=challenge"  target="_blank">Frontend Mentor</a>. Coded by
+		<a  href="https://github.com/sdacleofe">Shanice Cleofe</a>.
+	</section>
+</article>
 ```
+
+This is how I vertically align my attribution text with CSS property
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+section.attribution  {
+	writing-mode:  vertical-rl;
+	text-orientation:  mixed;
+	color:  hsl(0,  0%,  100%);
+	padding-left:  10px;
+}
+
+```
+This is how I used flexbox properties in my CSS custom
+```css
+article  {
+	display:  flex;
+	align-items:  center;
+	justify-content:  center;
+	height:  calc(100vh  -  10px);
+}
+
+section.card  {
+	display:  flex;
+	flex-direction:  column;
+	
+	text-align:  center;
+	width:  300px;
+	padding:  18px;
+	background-color:  hsl(0,  0%,  100%);
+	border-radius:  15px;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+###  Continued development
+In the future projects, I would like to focus on using the CSS custom properties. Especially the CSS layout part in which it covers the flexbox, grid and float. Learning the depth of its concept will help me to be more comfortable and confident in coding and reading the source code.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+###  Useful resources
 
-### Continued development
+ - [How to ACTUALLY Master CSS?](https://www.youtube.com/watch?v=6XGCCxiIUYc&t=306s) - This video helped me to narrowed my thoughts on the things I needed to know in order to truly understand CSS.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+-  [The Ultimate CSS3 Flexbox Tutorial - Colt's Code Camp](https://www.youtube.com/watch?v=qZv-rNx0jEA) - This video helped me  to understand the CSS Flexbox. I like his style of teaching, its a quality content.  There were little challenges throughout his video, and overall it's awesome!
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+-  [MDN Web Docs](https://developer.mozilla.org/) - This is an amazing website for extensive set of learning resources. A great reference for different aspects of web development. Provides detailed information about what you need in web standards
+  
 
-### Useful resources
+##  Author
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- Frontend Mentor - [@sdacleofe](https://www.frontendmentor.io/profile/sdacleofe)
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Twitter - [@sdacwd](https://twitter.com/sdacwd)
+ 
+##  Acknowledgments
+These are the YouTube content creators  whose videos I found to be incredibly useful. [Codedamn](https://www.youtube.com/c/codedamn) | [Colt Steele](https://www.youtube.com/c/codedamn) | [Coder Coder](https://www.youtube.com/c/TheCoderCoder) 
