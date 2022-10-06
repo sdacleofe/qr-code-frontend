@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(180deg, #43C6AC, #191654);
+
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+article {
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    padding: 18px;
+    margin-top: 80px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+article:hover {
+    box-shadow: 0px 0px 5px #d5ecf9;
+}
+
+img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+h3 {
+    color: hsl(218, 44%, 22%);
+    padding: 15px 4px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    padding: 0px 4px;
+}   
+
+footer{
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
