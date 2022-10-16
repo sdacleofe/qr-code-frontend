@@ -1,9 +1,9 @@
+:root {
+    font-size: 62.5%;
+}
 * {
     margin: 0;
     padding: 0;
-}
-:root {
-    font-size: 62.5%;
 }
 body {
     background: linear-gradient(180deg, #C9D6FF, #E2E2E2);
@@ -11,14 +11,14 @@ body {
     height: 100vh;
     font-size: 1.6rem;
 }
-article {
+main {
     display: flex;
     align-items: center;
     justify-content: center;
     height: calc(100vh - 10px);
     margin: 20px;
 }
-section.card {
+article.card {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -27,7 +27,7 @@ section.card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
 }
-section.card > img {
+article.card > img {
     max-width: 100%;
 }
 footer.attribution {
