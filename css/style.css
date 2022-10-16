@@ -24,7 +24,7 @@ main {
     justify-content: center;
     height: calc(100vh - 50px);
 }
-article.card {
+article.card-container {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -33,7 +33,7 @@ article.card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
 }
-article.card > img {
+article.card-container > img {
     max-width: 100%;
 }
 footer.attribution {
