@@ -11,12 +11,18 @@ body {
     height: 100vh;
     font-size: 1.6rem;
 }
+div.body-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
 main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 10px);
-    margin: 20px;
+    height: calc(100vh - 50px);
 }
 article.card {
     display: flex;
@@ -45,6 +51,7 @@ h1 {
     padding: 15px 4px;
     word-spacing: 2px;
     letter-spacing: 2px;
+    font-size: 1.2em;
 }
 p {
     color: hsl(220, 15%, 55%);
