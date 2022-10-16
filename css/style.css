@@ -2,56 +2,52 @@
     margin: 0;
     padding: 0;
 }
-
+:root {
+    font-size: 62.5%;
+}
 body {
     background: linear-gradient(180deg, #C9D6FF, #E2E2E2);
     font-family: 'Outfit', sans-serif;
     height: 100vh;
+    font-size: 1.6rem;
 }
-
 article {
     display: flex;
     align-items: center;
     justify-content: center;
     height: calc(100vh - 10px);
+    margin: 20px;
 }
-
 section.card {
     display: flex;
     flex-direction: column;
     text-align: center;
-
-    width: 300px;
+    max-width: 300px;
     padding: 18px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
 }
-
 section.card>img {
-    width: 300px;
+    max-width: 300px;
 }
-
 section.attribution {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     color: hsl(0, 0%, 100%);
     padding-left: 10px;
 }
-
 section.attribution a {
     text-align: center;
     color: hsl(216, 98%, 60%)
 }
-
 h3 {
     color: hsl(218, 44%, 22%);
     padding: 15px 4px;
     word-spacing: 2px;
     letter-spacing: 2px;
 }
-
 p {
     color: hsl(220, 15%, 55%);
-    font-size: 15px;
+    font-size: 1.5rem;
     padding: 0px 4px;
 }
