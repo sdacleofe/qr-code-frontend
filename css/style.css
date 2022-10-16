@@ -1,21 +1,14 @@
-:root {
-    font-size: 62.5%;
-}
-* {
-    margin: 0;
-    padding: 0;
-}
+:root { font-size: 62.5%; }
+* { margin: 0; padding: 0; }
 body {
-    background: linear-gradient(180deg, #C9D6FF, #E2E2E2);
-    font-family: 'Outfit', sans-serif;
-    height: 100vh;
-    font-size: 1.6rem;
-}
-div.container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(180deg, #C9D6FF, #E2E2E2);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.6rem;
+    height: 100vh;
     margin: 20px;
 }
 main {
@@ -28,10 +21,10 @@ article.card-container {
     display: flex;
     flex-direction: column;
     text-align: center;
-    max-width: 300px;
-    padding: 18px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
+    max-width: 300px;
+    padding: 18px;
 }
 article.card-container > img {
     max-width: 100%;
