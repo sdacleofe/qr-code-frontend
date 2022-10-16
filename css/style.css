@@ -27,20 +27,20 @@ section.card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
 }
-section.card>img {
-    max-width: 300px;
+section.card > img {
+    max-width: 100%;
 }
-section.attribution {
+footer.attribution {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     color: hsl(0, 0%, 100%);
     padding-left: 10px;
 }
-section.attribution a {
+footer.attribution a {
     text-align: center;
     color: hsl(216, 98%, 60%)
 }
-h3 {
+h1 {
     color: hsl(218, 44%, 22%);
     padding: 15px 4px;
     word-spacing: 2px;
